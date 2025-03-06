@@ -46,8 +46,6 @@ It replaces the default JavaScript console class. (types are important)
 - rotation - the rotation of the player as an array of numbers [yaw, pitch]
 - health - the health of the player
 - food - the food level of the player
-
-  (does not work as intended, values are undefined)
 - motion - the motion of the player as an array of numbers [x, y, z]
 - inventory - the Java inventory object of the player (use the class as you would in fabric client mod)
 - player - the Java player object (use the class as you would in fabric client mod)

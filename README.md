@@ -31,6 +31,8 @@ It replaces the default JavaScript console class. (types are important)
 - onMessage(function function) - runs the function every message, gives the message (String) as an argument
 - executeDefault(String command) - executes the command in the default command block (which you look at the moment of activation)
 - execute(String command, int posX, int posY, int posZ) - executes the command in the command block at the given position
+
+  (score methods throw an error when scoreboard not founf (not visible) or score not found)
 - getScore(String objective, String target) - gets the score of the target in the objective (for this method to work scoreboard must be visible (sidebar, list, belowName etc.))
 - getScoreboards() - gets the list of all scoreboards (scoreboard must be visible)
 - getScores(String objective) - gets the list of all scores in the objective (scoreboard must be visible)
@@ -44,6 +46,8 @@ It replaces the default JavaScript console class. (types are important)
 - rotation - the rotation of the player as an array of numbers [yaw, pitch]
 - health - the health of the player
 - food - the food level of the player
+
+  (does not work as intended, values are undefined)
 - motion - the motion of the player as an array of numbers [x, y, z]
 - inventory - the Java inventory object of the player (use the class as you would in fabric client mod)
 - player - the Java player object (use the class as you would in fabric client mod)

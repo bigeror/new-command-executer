@@ -32,7 +32,7 @@ It replaces the default JavaScript console class. (types are important)
 - executeDefault(String command) - executes the command in the default command block (which you look at the moment of activation)
 - execute(String command, int posX, int posY, int posZ) - executes the command in the command block at the given position
 
-  (score methods throw an error when scoreboard not founf (not visible) or score not found)
+  (score methods throw an error when scoreboard not found (not visible) or score not found)
 - getScore(String objective, String target) - gets the score of the target in the objective (for this method to work scoreboard must be visible (sidebar, list, belowName etc.))
 - getScoreboards() - gets the list of all scoreboards (scoreboard must be visible)
 - getScores(String objective) - gets the list of all scores in the objective (scoreboard must be visible)
